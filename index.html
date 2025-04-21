@@ -5,51 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E&F Asesores</title>
   <style>
-<!-- Widget Configuration -->
 
-<script>
-
-    window.ChatWidgetConfig = {
-
-        webhook: {
-
-            url: 'https://n8n-n8n.6tuidp.easypanel.host/webhook/48826cbc-98de-4d7c-b1b9-09732b6d2d9e/chat',
-
-            route: 'general'
-
-        },
-
-branding: {
-    logo: 'https://raw.githubusercontent.com/Jelgezabal/archivosinternet/main/cropped-LOGO-MAIL-2.png', // URL directa
-
-            name: 'Agente', // El nombre de tu empresa
-
-            welcomeText: 'Hola 👋, ¿Cómo te puedo ayudar?', //Mensaje de Bienvenida
-
-            responseTimeText: 'Te responderemos lo más rápido posible' //Tiempo de respuesta
-
-        },
-
-        style: {
-
-            primaryColor: '#854fff', //Color principal
-
-            secondaryColor: '#6b3fd4', //Color secundario
-
-            position: 'right', //posicion del widget
-
-            backgroundColor: '#ffffff', //Fondo del Widget
-
-            fontColor: '#333333' //Color para mensajes
-
-        }
-
-    };
-
-</script>
-<script src="https://chatbotinfinyai.netlify.app/chat-widget.js"></script>
-
-<!-- Widget Script -->>
     
     body {
       font-family: Arial, sans-serif;
@@ -132,5 +88,27 @@ branding: {
   &copy; 2025 E&F Asesores. Todos los derechos reservados.
 </footer>
 
+<script>
+    window.ChatWidgetConfig = {
+        webhook: {
+            url: 'https://n8n-n8n.6tuidp.easypanel.host/webhook/48826cbc-98de-4d7c-b1b9-09732b6d2d9e/chat',
+            route: 'general'
+        },
+branding: {
+    logo: 'https://raw.githubusercontent.com/Jelgezabal/archivosinternet/main/cropped-LOGO-MAIL-2.png', // URL directa
+            name: 'Agente', // EF & Asesores
+            welcomeText: 'Hola 👋, ¿Cómo te puedo ayudar?', //Mensaje de Bienvenida
+            responseTimeText: 'Te responderemos lo más rápido posible' //Tiempo de respuesta
+        },
+        style: {
+            primaryColor: '#854fff', //Color principal
+            secondaryColor: '#6b3fd4', //Color secundario
+            position: 'right', //posicion del widget
+            backgroundColor: '#ffffff', //Fondo del Widget
+            fontColor: '#333333' //Color para mensajes
+        }
+    };
+</script>
+<script src="https://chatbotinfinyai.netlify.app/chat-widget.js"></script>
 </body>
 </html>
